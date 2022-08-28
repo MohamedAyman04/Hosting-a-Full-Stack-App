@@ -1,4 +1,5 @@
 {
+    "main": "Archive/server.js",
     "scripts": {
         "frontend:install": "cd udagram/udagram-frontend && npm install -f",
         "frontend:start": "cd udagram/udagram-frontend && npm run start",
@@ -11,6 +12,10 @@
         "api:build": "cd udagram/udagram-api && npm run build",
         "api:start": "cd udagram/udagram-api && npm run dev",
         "api:deploy": "cd udagram/udagram-api && npm run deploy",
-        "deploy": "npm run api:deploy && npm run frontend:deploy"
+        "api:env": "cd udagram/udagram-api && npm run env",
+        "deploy": "npm run api:deploy && npm run frontend:deploy",
+        "install": "npm run api:install && npm run frontend:install",
+        "build": "npm run api:build && npm run frontend:build",
+        "all": "npm run install && npm run build && npm run deploy"
     }
 }

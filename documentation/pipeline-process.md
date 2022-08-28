@@ -26,8 +26,8 @@
 ## deploy
 
 1. it installs `node version 16.15.1`
-2. sets up `eb (elastic beanstalk` and `aws-cli`
-3. deployes the app
+2. sets up `eb (elastic beanstalk)` and `aws-cli`
+3. deploys the app
 
 ## workflow
 
